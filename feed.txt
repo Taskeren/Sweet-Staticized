@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>保罗的小宇宙</title>
+<link>https://paugram.com/</link>
+<atom:link href="https://paugram.com/feed" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description>Still single, still lonely.</description>
+<lastBuildDate>Sat, 03 Apr 2021 15:12:00 +0800</lastBuildDate>
+<pubDate>Sat, 03 Apr 2021 15:12:00 +0800</pubDate>
+<item>
+<title>记清明（伪诗句）</title>
+<link>https://paugram.com/essay/2021-qingming-festival.html</link>
+<guid>https://paugram.com/essay/2021-qingming-festival.html</guid>
+<pubDate>Sat, 03 Apr 2021 15:12:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[清明时节雨纷纷然而今年未见雨昨日母亲回故乡恰巧避开高峰期今日老夫孤零零独坐桌前伤脑筋灵感来源今天是 2021 年 4 月 3 日，老爸还要上班（对，不是加班），而我妈昨天回家乡了，于是今天我独自...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<sqp data-163="449818409"></sqp><p>清明时节雨纷纷<br>然而今年未见雨<br>昨日母亲回故乡<br>恰巧避开高峰期<br>今日老夫孤零零<br>独坐桌前伤脑筋</p><h1>灵感来源</h1><p>今天是 2021 年 4 月 3 日，老爸还要上班（对，不是加班），而我妈昨天回家乡了，于是今天我独自一人在家过节。睡了一觉起来就是 13:30，我去 M 记吃了顿午餐+下午茶。</p><p>在餐厅刷了一波 B 站，还找了几位朋友聊天。@Innei 和平时一样和我在抱怨着自己写代码踩到的坑，A 表示在看电影，B 没回复，找 C 约游戏没有理我，哎，这就是我的清明第一天！</p>
+]]></content:encoded>
+<slash:comments>5</slash:comments>
+<comments>https://paugram.com/essay/2021-qingming-festival.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/essay/2021-qingming-festival.html</wfw:commentRss>
+</item>
+<item>
+<title>iPhone 5C 越狱过程记录</title>
+<link>https://paugram.com/tech/iphone-5c-jailbreak-log.html</link>
+<guid>https://paugram.com/tech/iphone-5c-jailbreak-log.html</guid>
+<pubDate>Sat, 20 Mar 2021 12:49:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[都 1202 年了，怎么你还在用 iPhone 5C？这台 iPhone 来自我亲戚，他表示现在给他老妈用微信都卡了，是时候换一部新手机给她了。而我家境贫寒，从来就没把玩过 iOS 系统，从我家...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<blockquote><p>都 1202 年了，怎么你还在用 iPhone 5C？</p></blockquote><p>这台 iPhone 来自我亲戚，他表示现在给他老妈用微信都卡了，是时候换一部新手机给她了。而我家境贫寒，从来就没把玩过 iOS 系统，从我家里有第一台安卓手机开始（2011 年，魅族 M9）至今，我家里没有买过任何一台苹果手机。</p><p><img src="https://paugram.com/usr/uploads/2021/03/3589551863.jpg" alt="P10323-233142.jpg" title="P10323-233142.jpg"></p><p>即便是出来工作了，我依然觉得一部比较有生产力的电脑会更重要，相比之下，手机就显得比较随便了。手里的魅族 16，还能玩和平精英和原神，就没有急着换了。</p><p>这部 iPhone 虽然显得有些「落后」，但在我的手中还是有些新颖的，亲自上手，才能体验出 iOS 的魅力吧。</p><h1>前情</h1><p>到手几天，我发现这部手机已经无法安装大多数应用，因为其内置的 <strong>iOS 10.3.3</strong> 系统已经退出主流，很多新的软件已经不再支持。但是呢，爱思助手上可以提供旧版软件的下载，这点还是比较良心的！（没有广告费）</p><p>即便如此，国内的 App Store 已经被监管了，没有几年前那么开放，大多数优秀的外国游戏，已经无法在国区下载和体验。那么怎么安装这些应用呢？按照安卓的机制，iOS 也有自己的软件包，后缀是 <code>.ipa</code> 文件。我从网上下载后，拖拽到爱思助手上安装，提示这是一款越狱应用，搜索后得知，未越狱的情况下是无法通过 Apple 验证，没办法安装到手机的。</p><p>既然要越狱，那就越啊！反正这台手机也不会是自己的主力机，大胆玩！</p><p>爱思助手有一键越狱功能，但是都不行，无法使用，这件事情也就因此耽搁了一段时间。直到昨天（2021/3/19）我跑去看了下 <a href="https://www.youtube.com/watch?v=Elw-en99oEQ">外国人的解决方案</a>，他们提到了一款应用 - <code>h3lix</code>。</p><h1>安装 h3lix</h1><p>根据外国网友的视频演示，我们要从一个网站上下载 h3lix，之后在安装进程走到一半左右的时候断开网络（应该是跳过 Apple 的验证）之后就可以成功安装到手机里面。</p><p>而我试了好几次都没有成功，为了下载加速，我还给自己的路由器加了全局代理，结果还是不行。</p><p>那么，真的没有任何办法了吗？我又从网站 <a href="https://pangu8.com/jailbreak/10-3-3/download-h3lix/">pangu8.com</a> 了解到了 h3lix 的安装步骤，需要一个名为「Cydia Impactor」的软件给手机安装应用。</p><h2>使用 Impactor</h2><blockquote><p>此方法已无效，但属于折腾经历，你可以直接跳到下一个子章节「使用爱思助手」以继续。</p></blockquote><p>使用这个软件需要登录自己的 Apple ID，以及需要登录 Apple ID 的网站，申请一个「App 专用密码」填写进去。否则，将会提示错误：</p><pre><code>file: provision.cpp; line: 173; what:
+
+Sign in with the app-specific password you generated. If you forgot the app-specific password or need to create a new one, go to appleid.apple.com</code></pre><p>使用 App 专用密码确实有效了，但是依旧提示错误：</p><pre><code>_assert(!teams.empty())</code></pre><p>一番搜索后得知，其实是我需要在 XCode 上创建一个 Team。</p><p><a href="https://github.com/DKJone/DKWechatHelper/issues/27">Cydia Impactor 安装未签名版时报错</a></p><p>这时我就明白了，Apple 应用开发者可以自己给 ipa 进行签名，这个软件的原理其实就是自我签名实现安装到手机的。我打开了尘封已久的 XCode，在上面登录了自己的 Apple ID，就自动创建一个 Team 了。</p><p>然而，我的 Cydia Impactor 显示 Please update to Xcode 7.3 or later 错误，无法进行下去，而我本地的 XCode 都已经是 12.1 的版本了。</p><p><a href="https://www.xiaoyuanjiu.com/13199.html">解决 Cydia Impactor 显示 Please update to Xcode 7.3 or later 错误</a></p><p>其实是这个工具没更新，无法实现签名步骤了。既然知道是签名的问题，那么还有什么地方可以实现签名呢？</p><p>直到看到 <a href="https://www.i4.cn/news_detail_31112.html">自签名工具 Cydia Impactor 使用教程</a> 这篇文章，才得知这个方法已经无法使用了。</p><h2>使用爱思助手</h2><p>爱思助手里面有提供签名工具，不过需要给系统的「邮件」应用安装插件。</p><p>打开邮件 App，点击左上角“邮件”菜单 -&gt; 偏好设置 -&gt; 通用 -&gt; 管理插件 -&gt; 勾选「ASPlugin.mailbundle」-&gt; 应用并重启邮件</p><p>之后就可以开始签名流程了，一切都非常顺利的进行着。h3lix 成功实现自签名，将生成的 ipa 拖拽到爱思助手的应用那里，就可以成功安装到手机了。</p><p><a href="https://www.i4.cn/news_detail_38195.html">爱思助手 IPA 签名教程</a></p><h1>使用 h3lix</h1><p>打开 h3lix，点击「jailbreak」或者「Kickstart」按钮，一键自动完成，手机自动重启后就越狱成功了。期间可能会提示什么空间已满，不用管它就好。</p><h1>安装越狱版软件</h1><p>打开 Cydia，添加一个 APT 源 <code>cydia.angelxwind.net</code>。</p><p>打开这个源，选择「插件」，下载安装 AppSync Unified，重新打开爱思助手连接手机，即可安装越狱应用。</p><p><a href="https://www.i4.cn/news_detail_13094.html">iOS 10 越狱设备如何安装 AppSync</a></p><p>这里我安装的游戏有 Gangstar: MV 和 Gangstar: Rio，都是几年前的 GameLoft 经典，仿照 GTA 模式做的开放世界性质游戏，有着自己的剧情和故事，即便现在已经被遗忘了，但依旧非常有意思。</p><p>对了，越狱之后如果重启过设备，需要重新越狱（重复以上步骤，如果超过三天，h3lix 的开发者授权会到期，需要重新签名）才可以重新使用越狱版应用。</p><p>以上，就是我本次的 iOS 越狱折腾经历了。有任何疑问，欢迎在下方评论区讨论交流。</p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://paugram.com/tech/iphone-5c-jailbreak-log.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/tech/iphone-5c-jailbreak-log.html</wfw:commentRss>
+</item>
+<item>
+<title>NextJS 使用 Less 编译 Antd</title>
+<link>https://paugram.com/coding/build-antd-with-less-in-nextjs.html</link>
+<guid>https://paugram.com/coding/build-antd-with-less-in-nextjs.html</guid>
+<pubDate>Wed, 03 Mar 2021 16:41:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[近期在细化魔改公司的某个 NextJS 项目，需要优化样式，于是想到了使用 Less 编译 Antd。一番折腾后，可以正常使用和编译了。以下内容仅供参考，以实际项目使用为准。_app.tsx从原...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>近期在细化魔改公司的某个 NextJS 项目，需要优化样式，于是想到了使用 Less 编译 Antd。一番折腾后，可以正常使用和编译了。以下内容仅供参考，以实际项目使用为准。</p><p><strong>_app.tsx</strong></p><p>从原有的 CSS 引入改成仅引入组件样式</p><pre><code class="lang-tsx">// import 'antd/dist/antd.css';
+import 'antd/lib/style/components.less';</code></pre><p>修改 Next 配置文件</p><p><strong>next.config.js</strong></p><pre><code class="lang-javascript">const withCSS = require('@zeit/next-css');
+const withLess = require('@zeit/next-less')
+const webpack = require('webpack');
+const withBundleAnalyzer = require(&quot;@zeit/next-bundle-analyzer&quot;);
+
+module.exports = withBundleAnalyzer(withLess(withCSS({
+    webpack: (config) =&gt; {
+        ...
+    },
+    lessLoaderOptions: {
+        modifyVars: {
+            'primary-color': '#fa3532',
+            'link-color': '#fa3532',
+        },
+        javascriptEnabled: true
+    }
+})));</code></pre><p>其中，<code>modifyVars</code> 是 Antd 的变量，可以修改颜色，间距等。<code>javascriptEnabled</code> 必须开启，才可以正常编译 Antd，否则会出现报错。</p>
+]]></content:encoded>
+<slash:comments>2</slash:comments>
+<comments>https://paugram.com/coding/build-antd-with-less-in-nextjs.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/coding/build-antd-with-less-in-nextjs.html</wfw:commentRss>
+</item>
+<item>
+<title>2020 年度总结</title>
+<link>https://paugram.com/essay/bye-2020.html</link>
+<guid>https://paugram.com/essay/bye-2020.html</guid>
+<pubDate>Tue, 16 Feb 2021 19:29:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[2020，一个不平凡的一年。我家原本一个可能非常愉悦的省内游计划，因为「疫情」的突然降临，被彻底推翻了。总有人说：你的岁月静好，是别人在负重前行。确实如此，国内的防疫工作如此顺利，背后是千千万万...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<sqp data-163="28911957"></sqp><p>2020，一个不平凡的一年。我家原本一个可能非常愉悦的省内游计划，因为「疫情」的突然降临，被彻底推翻了。</p><p>总有人说：你的岁月静好，是别人在负重前行。确实如此，国内的防疫工作如此顺利，背后是千千万万医护人员的共同努力，中国成功的防疫措施，已经是全世界共同目睹的了。</p><p>旅游是疫情当下影响最大的行业之一，你可能猜不到，我 2019 年底离开金山之后的下家，就是一家当地的知名旅行社。</p><p>一月初入职的时候，新冠病毒还没有散播开来，那段时间在公司感觉还是很紧张又刺激的。</p><p>疫情确定之后，全国大幅度停工，居家了好几个月。除了完成公司的一些必要任务，我则利用起了这段时间，学习起来了新技能，充实自己，为着自己的将来更上一层楼。</p><h1>技能</h1><p>今年主要的学习目标，主要是为了自己的职业人生做准备，毕竟原生 JS 只是前端基础，自己写着玩玩比较有意思，在工作上仍然需要使用到不少的框架和库提升效率。</p><ul><li>Vue</li><li>React</li><li>NextJS</li><li>Mobx</li><li>TypeScript（入门）</li><li>微信小程序</li></ul><ul><li>Final Cut Pro（入门）</li><li>Motion（入门）</li></ul><p>Vue 和 React 两大 JS 框架是现在大多数公司的主流技术栈（Angular：我遭什么罪了），上手熟悉并开发一款可以使用的应用，作为个人作品展示，就是加分项。</p><p>年底入职了新公司，技术栈是 React + NextJS。虽然从来没有用这个框架写过项目（我的小窝后台是 Create-React-App 脚手架搭的），但看了下文档很快就上了手。常用到的功能，在框架的文档上都写的比较齐全，暂时没有遇到什么特别难的问题。</p><p>关于微信小程序呢，起初还觉得做自己主页就是反复造轮子提不起兴趣，可一旦真正搞起来之后才发现，微信小程序内置的 API 还是挺丰富的，轮播、音乐播放器等常用组件都已经有了，完全不需要自己写了。</p><p>小程序的好处，除了对移动设备浏览体验更好以外，最关键的还是在微信里的分享功能啊！</p><p>Final Cut Pro 和 Motion，都是入坑了 MacBook Pro 之后的事，现在还属于入门级别水平，还没有发挥出软件最大的作用。具体只能看我什么时候能重燃信心继续做视频了...</p><p>以上，就是我今年来主要学习和实践的技术栈，明年再接再厉！</p><h1>工作</h1><p><strong>某当地知名旅行社</strong>（2020.1 - 2020.12）</p><ul><li><p>官网（PC 版）页面编写及维护</p><ul><li>JQuery + 纯 CSS 无框架</li></ul></li><li><p>微信公众号网页相关前端开发</p><ul><li>JQuery + BootStrap</li></ul></li><li><p>内部业务管理平台的前端业务逻辑开发</p><ul><li>JQuery + BootStrap）</li></ul></li><li><p>部分独立网页的设计和制作</p><ul><li>原生 CSS + JS</li></ul></li><li><p>置业管理平台全栈开发</p><ul><li>Vue + Element UI + PHP</li></ul></li></ul><p>总体而言，在这里主要接触的业务需求比较多，都能及时完成交付，但在技术上的提升比较有限。我还是想去挑战一下自己，争取学会更多的技能。</p><p><strong>某电商创业公司</strong>（2020.12 - ~）</p><ul><li><p>编写面向供货商的展示门户</p><ul><li>React + NextJS</li></ul></li><li><p>接手并维护面向店长的商品管理后台</p><ul><li>React + NextJS + Mobx + TypeScript + Antd (Polaris)</li></ul></li><li><p>编写面向店长的展示门户</p><ul><li>WordPress + PHP</li></ul></li></ul><p>在这里接触的技术栈基本上都是全新的，前后端分离就是一个巨大的变化。项目大量依赖 Git 管理，使用 Jenkins 进行自动化部署。</p><p>接手项目最大的难点莫非在于阅读别人编写的代码，有些人写的会比较抽象，在没有任何「注释」及「业务流程」说明的情况下，比较费心思。但好在这些东西最后我都解决了，一些项目也按时交付了。</p><h1>项目</h1><p>疫情在家期间，我也持续开展做着自己的小项目，一边学习一边实战新技术栈。</p><p><strong>奇趣起始页</strong></p><p>一款开源的极简起始页，代码轻量，功能齐全。可以在仓库提交 PR 创建定制属于自己的专属导航页！<a href="https://s.paul.ren">传送门</a></p><p><img src="https://paul.ren/upload/project/KStart-1.jpg" alt="奇趣起始页" title="奇趣起始页"></p><p><strong>菜管</strong></p><p>收集我家家常菜的一个管理系统，记录每日菜单的功能尚未制作（后端咕咕）</p><p><img src="https://paul.ren/upload/project/web/Food.jpg" alt="菜管" title="菜管"></p><p><strong>小窝后台</strong></p><p>使用 React 完成的新版小窝后台，只需要调用 API 即可实现各种管理功能。由于界面是直接迁移出来的，于是除了奇趣框架以外，没有使用到其他任何任何 UI 组件。</p><p><img src="https://paul.ren/upload/project/web/Backend.jpg" alt="React 后台" title="React 后台"></p><p><strong>保罗的小窝 V2</strong></p><p>之所以叫做 V2，是因为除了在外观上做了轻微调整（头部菜单），还主要对后端架构上进行了重构，模仿了 PHP 框架的一些设计思想。</p><ul><li>全新的头部菜单设计</li><li>新增「手办」页面</li><li>移除 SSR 模式的后台功能</li><li>API 架构重置，部分功能重构</li><li><p>重构相册功能，使用随机文件名存储</p><ul><li>2021 年开始的日记图片整合进了相册，方便管理</li></ul></li><li>重构项目功能，重新设计页面布局</li><li>...</li></ul><p><strong>小窝小程序版本</strong></p><p>功能几乎和小窝一致，但在「朋友圈分享」等使用情形下会比网页更友好。由于均采用 API 获取，日记功能的前端体验比目前的网页端稍好。</p><p><img src="https://paul.ren/upload/note/2020/09.21-%E5%A4%9A%E5%B9%B4%E4%BB%BD%E6%97%A5%E8%AE%B0.jpg" alt="小程序" title="小程序"></p><p><strong>其余项目维护</strong></p><ul><li>Fantasy 主题增加夜间模式</li><li>随机动漫壁纸 API 图片增加，增加「必应每日壁纸」API</li></ul><p>企业项目，详见上方「工作」章节</p><h1>文章</h1><p>今年在博客上一共编写了 22 篇文章，技术方向为主，毕竟出去工作碰到的事情，确实会比自己做项目要多的多。</p><p>日常生活的文章大多数都写在了 <a href="https://paul.ren/note">日记</a> 里，其中有不少字数已经超过了 600 字，部分内容其实完全可以作为科普文单独编写出来的。</p><p>目前日记的前端还是不够完善，想要看到更多内容，还是康康我的小程序「奇趣保罗」吧，哈哈。</p><h1>游戏</h1><p>今年主要接触的手机游戏有这些：</p><ul><li>和平精英</li><li>碧蓝航线</li><li>公主连结（New）</li><li>原神（New）</li></ul><p>电脑游戏，主要是在 Mac 下游玩，Win 下也有：</p><ul><li>黑手党：3</li><li>CSGO</li><li>怪怪水族馆</li><li>威尼斯（宝开的一款消除游戏）</li><li>整蛊邻居重制版</li><li>原神</li></ul><p><strong>和平精英</strong></p><p><img src="https://paul.ren/upload/note/2020/07.14-%E7%95%85%E5%BF%AB%E6%B7%8B%E6%BC%93%E7%9A%84%E5%9B%A2%E9%98%9F%E7%AB%9E%E6%8A%80.jpg" alt="和平精英" title="和平精英"></p><p>和平精英虽然已经推出不久了，但还是一个保持着热度的游戏。腾讯在原版吃鸡的游戏玩法基础上，加入了很多独有的对战模式，这是一个留住玩家的好方式。自从「刺激战场」改名为「和平精英」之后，意味着腾讯拿到了版号，可以大肆开始捞钱了。</p><p>现在的游戏打开来确实是存在很多氪金的内容，但大多数是花里胡哨的皮肤，对游戏体验没有特别大的影响。我最多就是整个赛季首充，在合理范围内支持下游戏就是了。</p><p>我有一套参加活动嫖的深绿色服装，堪比「伏地魔」似的存在，每次都穿着它开黑。游戏内的氪金玩家大多是段位较高（至少有个铂金）的人，在游戏中成功击杀此类氪金玩家，其实是可以获得双倍快乐的！换个角度想想，你被一个穿着这么普通的人击杀，难道不觉得非常气愤么？</p><p>尽管地图就那几个，但是每次匹配的敌人都是随机的，你没有办法得知敌人的水平、可能出现的地方，战术什么的，全靠自己实战打才知道。不过这个游戏十分依赖队友，路人局的水平更难想象，我匹配娱乐模式的时候，经常会出现队友击败 2 人，而我击败 20+ 人的情况...</p><p><strong>碧蓝航线</strong></p><p><img src="https://paul.ren/upload/note/2019/07.13-U-101.jpg" alt="碧蓝航线" title="碧蓝航线"></p><p>碧蓝航线这个游戏我玩（挂）了很久了，这个游戏的玩法创新从开服到现在都没有明显的变化，始终在更新的就是源源不断的有推出新老婆。这个游戏面向的玩家可能更「青少年」一些吧，氪金内容也基本围绕在「老婆们」的皮肤上，这些都是不影响游戏体验的。</p><p>有钱的人确实可以买更多的皮肤支持下游戏开发商，没钱的人氪金少也可以通过「日常委托」等方式获得物资，用于「建造」老婆，而无需氪金。前面我提到我是「挂」了很久，就是因为日常委托可以挂在那里让角色自动对战。角色升级只需要放到「宿舍」就可以自动成长，无需「经验书」等方式强迫你刷关卡。唯独只有部分角色需要肝「活动关卡全三星」才能获得，会比较辛苦。</p><p>总体来说，游戏人设，确实是我能将这款游戏坚持到现在的理由。</p><p><strong>公主连结</strong></p><p><img src="https://paul.ren/upload/note/2020/04.17-%E5%AE%88%E6%8A%A4%E6%88%91%E7%9A%84%E5%8F%AF%E5%8F%AF%E8%90%9D.jpg" alt="可可萝" title="可可萝"></p><p>四月份上手了公主连结这款游戏，个人觉得上手之后感觉就是刷副本，升级角色，在玩法上没有什么特别引人注目的地方。玩了几个月就退坑了，此前修过一次手机没有安装回去，自然就不用卸载了。</p><p>游戏里面主要就是动画、美术、配音做的比较好，毕竟是二次元手游嘛。像可可萝这样可爱的老婆，在现实中能找得到么？不过要是想要在游戏里面获得那些好康的女孩子，抽卡是唯一的办法，但抽卡必须氪金，很明显的压榨二次元，哈哈哈。</p><p><strong>原神</strong></p><p><img src="https://paul.ren/upload/gallery/6/2021/01/060feeff.jpg" alt="等级进阶突破" title="等级进阶突破"></p><p>年末则是主要入坑了原神，当时大多数人都是看着「开放世界」这个旗号去尝试的吧？刚开始玩的时候感觉还行，打打怪刷刷图开开宝箱，打到后期之后就感觉打的费劲了。因为我得知除了武器以外，还需要升级「圣遗物」，而升级所需的资源，都只能通过刷图获得。</p><p>游戏里面的角色和《公主连结》一样需要抽卡获得，爆率也是低，但是所需的「原石」或是「相遇之缘」可以肝。更简单的办法就是直接买个月卡，累计登录就可以送大量原石，是个比较可取的方式。</p><p>这款游戏从画面、建模、角色（最喜欢了）到配乐，都是非常出色的水准，尽管在玩法上还是有很多槽点，但是作为一款如此火爆的国产二次元游戏来说，不能再要求太多了。</p><p><strong>总体感受</strong></p><p>不得不说，随着移动互联网的发展，想要快捷支付也是非常方便。现在的游戏从原有的「精品单机」路线逐渐走偏了，原有的单机游戏大多是买断制（在国内没有代理，是盗版），而现在的游戏几乎从「不强迫收费」，变的非常「明目张胆」要你付费。因为有些角色别人有，你没有，就是会影响你的游戏体验。</p><p>即便如此，买断制的游戏依然存在，Steam 上就挺多的。只是在我眼前，这些游戏几乎都是外国厂商发行的。国内厂商「赚快钱」的思想，确实是普遍的。</p><h1>番剧</h1><p>疫情期间在家看番剧的时间确实多了些，主要有...</p><ul><li>《京剧猫》</li><li>《高校舰队》</li><li>《恋爱小行星》</li><li>《出租女友》</li><li>《青春恋爱》第一季</li><li>《未确认进行式》</li><li>《玉子市场》</li><li>《我们无法一起学习》</li><li>《轻音少女》剧场版</li></ul><p><img src="https://paul.ren/upload/note/2020/04.01-%E6%9E%9C%E5%84%BF%E5%A6%B9%E5%A6%B9.jpg" alt="京剧猫" title="京剧猫"></p><h1>设备</h1><p>2 月买了台华硕 ACRH17 千兆路由器，淘汰了之前的魅族百兆双频路由器。百兆在局域网的速度只有 10M/s 左右，对我的 NAS 使用非常有影响。更换设备之后，NAS 内网传输大文件在使用 5GHZ 频率 WiFi 下可以跑到 70M/s 左右的速度，快太多了！甚至可以直接连接 NAS 来做视频剪辑，而不需要将视频存放在 MacBook 上...</p><p>5 月 20 日购置了人生第一部 MacBook Pro，配置为 16+512 第十代 i7 定制款。年末猝不及防的推出了 M1，我这台电脑已经成为了最后一部 Intel 版 MacBook Pro 了。</p><p><img src="https://paul.ren/upload/note/2020/05.20-%E6%96%B0%E7%94%B5%E8%84%91.jpg" alt="MacBook Pro" title="MacBook Pro"></p><p>有些人可能会觉得苹果不是比较保值么，卖了呗。当你去看了看咸鱼之后就会发现，其实 Intel 版本的掉价有点厉害了。按照苹果的说法，Intel 设备在未来五年以内都是提供支持的。</p><p>电脑只是个消耗品工具，该换的时候再换其实也没什么太大的问题。要知道我上台飞行堡垒都修修补补用了将近五年了，到现在还是可以作为日用游戏（新作肯定跑不起来）的电脑来用。</p><h1>愿望</h1><style>ul p{ margin-bottom: 0}</style><p>康康去年的愿望实现了吗？</p><ul><li><p>❎ 寻找另一半，永不放弃</p><ul><li>恋爱方面毫无进展，但是解开了心中一块巨石，感谢 @蓝灵 让我重新找回自信</li><li>一个人对你没兴趣，你无论如何也讨好不了对方，不要认为是自己的问题</li><li>不能因为一个不合适的人，忘记了曾经和你非常有话题的女生们</li><li>世上肯定是有适合自己的人的，只是还没到时候，缘分很奇妙</li></ul></li><li><p>✅ 入门 Vue / NodeJS & Express 并做一个项目</p><ul><li>使用 Vue 做菜管项目，使用 Express 做公司置业项目的一个后端（虽然没有被正式使用）</li><li>在这个的基础上，又学会了 React 和小程序，算是超出了预期计划？</li></ul></li><li><p>❎ 拍摄一个更棒的 Vlog 视频，能收到更多人的观看</p><ul><li>疫情原因，没出过什么远门，也没有拍什么有意思的视频</li><li>做的 MBP 开箱没有什么人气，算是失败品，相反群友第一个视频收获了几万观看，很强了</li></ul></li><li><p>✅ 带好自己的团队，重新焕发生机</p><ul><li>这个算是完成了一点？具体情况暂不进行透露...</li></ul></li></ul><p>恋爱是肯定的了，谁不想遇到一个认同自己的另一半呢？技术上的提升已经是我的职业成长长期目标了，暂时没有什么特别的计划了。只是希望...</p><ul><li>寻找另一半，永不放弃</li><li>健康生活，快乐自己</li><li>持续让自己的小窝和博客越做越好</li></ul><h1>往期</h1><p><a href="https://paugram.com/essay/bye-2019.html">2019 年度总结</a><br><a href="https://paugram.com/essay/hello-2019.html">2018 年度总结</a><br><a href="https://paugram.com/essay/2018-new-year.html">2017 年度总结</a></p>
+]]></content:encoded>
+<slash:comments>8</slash:comments>
+<comments>https://paugram.com/essay/bye-2020.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/essay/bye-2020.html</wfw:commentRss>
+</item>
+<item>
+<title>Mobx 初入门</title>
+<link>https://paugram.com/coding/mobx-learning-startup.html</link>
+<guid>https://paugram.com/coding/mobx-learning-startup.html</guid>
+<pubDate>Thu, 10 Dec 2020 11:11:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[最近在编写一套基于 React + NextJS 技术栈的网站，由于需要考虑到 用户登录 与 权限验证，不同的用户会呈现不一样的内容。若要实现这样的功能，肯定是需要一个“全局变量”才方便啊。需要...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<sqp data-163="412327886" right></sqp><p>最近在编写一套基于 React + NextJS 技术栈的网站，由于需要考虑到 用户登录 与 权限验证，不同的用户会呈现不一样的内容。若要实现这样的功能，肯定是需要一个“全局变量”才方便啊。需要使用到它的一个简单例子，大致如下：</p><ul><li><strong>未登录</strong>：无法访问，提示需要登录</li><li><strong>已登录，非 VIP</strong>：提示需要 VIP</li><li><strong>已登录，是 VIP</strong>：正常访问内容</li></ul><h1>安装</h1><p>若要在现有的 NextJS 项目中使用，首先打开终端，定位到项目目录下，执行 <code>yarn add mobx mobx-react</code> 安装。这里我用的是 Mobx 的最新版本 6.0.4，你可以在 <code>package.json</code> 看到你已安装的版本。</p><pre><code class="lang-json">{
+  &quot;dependencies&quot;: {
+    &quot;mobx&quot;: &quot;^6.0.4&quot;,
+    &quot;mobx-react&quot;: &quot;^7.0.5&quot;
+  }
+}</code></pre><h1>概念</h1><p>就我目前的项目复杂程度可言，我只需要一个很基础的用法，分别是「读取」和「获取」就可以了。以下是我结合官方文档的 Demo 写的一个案例：</p><pre><code class="lang-javascript">// store/user.js
+
+// 自动根据对象类型设置监听对象和 Action
+import { makeAutoObservable } from &quot;mobx&quot;;
+
+class User_Info {
+  // 被监听的对象
+  session = {
+    access: &quot;&quot;,
+    refresh: &quot;&quot;
+  }
+
+  // 初始化一个 Mobx 并监听数据
+  constructor() {
+    makeAutoObservable(this);
+  }
+}
+
+const store = new User_Info();
+
+export default store;</code></pre><h1>读取</h1><p>读取数据就简单了，使用模块的方式，导出一个已经初始化的 <code>class</code> 对象，再通过索引值就可以实现。</p><pre><code class="lang-jsx">import userinfo from &quot;@/store/userinfo&quot;;
+import { observer } from &quot;mobx-react-lite&quot;;
+
+// 你的组件，这样就可以根据 Mobx 的值自动化
+const HeadAction = observer((props) =&gt; {
+  return (
+    &lt;div className=&quot;head-action&quot;&gt;
+      {props.session.access ? &lt;Link href=&quot;/profile&quot;&gt;Profile&lt;/Link&gt; : &lt;Link href=&quot;/auth/login&quot;&gt;Login&lt;/Link&gt;}
+    &lt;/div&gt;
+  )
+});
+
+function Header(){
+  return (
+    &lt;div className=&quot;head-action&quot;&gt;
+      &lt;HeadAction user={userinfo}&gt;&lt;/HeadAction&gt;
+    &lt;/div&gt;
+  )
+}
+
+export default Header;</code></pre><h1>写入</h1><p>而写入需要在 <code>class</code> 里面编写一个 <code>action</code>，该 Action 除了能修改值以外，也是想让需要根据值产生「页面元素重绘」的一个重要步骤。</p><pre><code class="lang-javascript">// store/user.js
+
+// 自动根据对象类型设置监听对象和 Action
+import { makeAutoObservable } from &quot;mobx&quot;;
+
+class User_Info {
+  // 被监听的对象
+  session = {
+    access: &quot;&quot;,
+    refresh: &quot;&quot;
+  }
+
+  // 初始化一个 Mobx 并监听数据
+  constructor() {
+    makeAutoObservable(this);
+  }
+
+  // 修改信息的 Action
+  setData(value){
+    let item;
+
+    for(item in value){
+      this.session[item] = value[item];
+    }
+  }
+
+  // 重置信息的 Action
+  removeData(){
+    this.session.access = &quot;&quot;;
+    this.session.refresh = &quot;&quot;;
+  }
+}
+
+const store = new User_Info();
+
+export default store;</code></pre><p>这样就可以在其他页面中调用 action，进行修改和重置的操作了。</p><pre><code class="lang-jsx">useEffects(() =&gt; {
+  // 清除数据
+  userinfo.removeData();
+})</code></pre><h1>计算属性</h1><p>看到这里，是否感觉其实还蛮简单的？Mobx 还有一个常用的东西，叫做 <code>computed</code> 函数，它的用法类似 Vue2 的 Computed 计算属性。依旧是在 Class 里面定义，在前面加个 <code>get</code> 就可以了。</p><pre><code class="lang-javascript">// 根据现有的值，确定是否登录
+// 根据数据内容返回布尔值
+get logined(){
+  if(this.session.access){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
+// 使用时，并不需要带括号
+// userinfo.logined</code></pre><h1>中文文档踩坑</h1><p>研究 Mobx 期间，我其实首先看的是「<a href="https://cn.mobx.js.org">中文版本</a>」的文档。该文档对应的最新版本是 5x，而官方文档使用的是 6x 了。看了下对应的 <a href="https://github.com/SangKa/mobx-docs-cn">维护仓库</a>，发现上次更新已经是 2 年前了。那么中文文档和英文文档有什么差异呢？主要在于 Mobx 对象的定义方式上，新版和旧版有所出入。</p><p>旧版文档使用了一个叫做「修饰器」（Decorators）的东西，也就是下面这个带上了 <code>@</code> 的定义方式。</p><pre><code class="lang-typescript">import { observable } from &quot;mobx&quot;;
+
+class Todo {
+    id = Math.random();
+    @observable title = &quot;&quot;;
+    @observable finished = false;
+}</code></pre><p>而我的 Playground 项目并没有使用 TypeScript，因此无法使用，这对我的学习产生了很大的阻碍。</p><p>等我看到了官方 <a href="https://mobx.js.org/installation.html">最新版本</a> 的文档，才得知这已经不是官方推荐的写法了。</p><blockquote><p>If you have used MobX before, or if you followed online tutorials, you probably saw MobX with decorators like @observable. In MobX 6, we have chosen to move away from decorators by default, for maximum compatibility with standard JavaScript. They can still be used if you enable them though.</p></blockquote><p>根据最新文档的写法，并结合 <code>makeAutoObservable</code> 来使用，也能大大减少有关定义相关的代码。</p><p>至此，以上就是我初入 Mobx 所理解的一些概念和使用方法。如有疑问，欢迎留言评论交流～</p><h1>参考</h1><p><a href="https://mobx.js.org">《Mobx 官方文档》</a>（英文）</p>
+]]></content:encoded>
+<slash:comments>2</slash:comments>
+<comments>https://paugram.com/coding/mobx-learning-startup.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/coding/mobx-learning-startup.html</wfw:commentRss>
+</item>
+<item>
+<title>[转] 什么是爱情</title>
+<link>https://paugram.com/essay/922-what-is-love.html</link>
+<guid>https://paugram.com/essay/922-what-is-love.html</guid>
+<pubDate>Sat, 05 Dec 2020 01:07:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[爱情就是做饭，不要放错调料。不然待其炒好，调料很难分开。好吃快乐享受，难吃含泪吞下。或者就不结婚了，永远谈恋爱吧。先谈个 50 年的恋爱，到最后就没有结婚的欲望了。想离就离，想和就和。多么痛快！...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>爱情就是做饭，不要放错调料。<br>不然待其炒好，调料很难分开。<br>好吃快乐享受，难吃含泪吞下。</p><p>或者就不结婚了，<br>永远谈恋爱吧。<br>先谈个 50 年的恋爱，<br>到最后就没有结婚的欲望了。<br>想离就离，想和就和。<br>多么痛快！</p><h1>结婚证</h1><p>一个结婚证也就只是财产分割的保险。<br>假如有两个人类真心相爱，<br>不需要有什么财产分割、子女抚养与买房的问题（其实归根结底，除了子女抚养，其它都是财产分配问题）<br>那么他们为什么还需要去让法律承认他们结婚，一定要拿那两本红色的废纸呢？</p><p>因为根本很多人类不知道婚姻是什么。<br>因为人类其实根本读不懂自己。<br>自己都读不懂，就更读不懂其它人类了。</p><p>最真心相爱的两个人类，<br>能够以最原始的方式，<br>永远甜蜜且浪漫地度过他们的一生。</p><p>可能他们信奉宗教，<br>需要神的见证，<br>除此之外，<br>就并不需要什么证明了。</p><p>假如说两个人类真的需要那两本纸，<br>那么他们两个人类都需要回答一个问题：<br>如果没有那些废纸，他们还能真心相爱吗？<br>如果回答是否，或者是怀有另一种目的<br>那么就很危险了…</p><p>法律永远只能起到事后辅助的作用，<br>但爱情或是有阴谋的靠近永远比法律跑得快。</p><p>爱情不需要法律去承认，<br>但是就是害怕有些迷迷糊糊的人类，迷迷糊糊结婚，最后发现生活一团糟。<br>这个时候，法律能做的，也就是以第三方的角度去调解而已。</p><p>法律永远无法承认与挽救任何婚姻与家庭，真正的救赎只能来自当事的两个人类…</p><h1>总结</h1><p>有困难他们一起克服<br>有甜蜜他们一起共享<br>这样的爱情，才是永恒…</p><h1>来源</h1><p><a href="https://www.aifast.net/?p=123">922 的小世界</a> 虽然还是我发的（作者是 922），哈哈哈哈</p>
+]]></content:encoded>
+<slash:comments>12</slash:comments>
+<comments>https://paugram.com/essay/922-what-is-love.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/essay/922-what-is-love.html</wfw:commentRss>
+</item>
+<item>
+<title>QQ 小程序的图片被反盗链拦截了</title>
+<link>https://paugram.com/coding/qq-micro-app-image-has-been-blocked.html</link>
+<guid>https://paugram.com/coding/qq-micro-app-image-has-been-blocked.html</guid>
+<pubDate>Sun, 04 Oct 2020 20:52:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[今天在研究将微信小程序移植到 QQ 小程序，发现目录结构大体一致，只是文件名的后缀有所变化。部分微信独占的 API 没有（例如 onShareTimeline 分享到朋友圈），以及默认的 CSS...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>今天在研究将微信小程序移植到 QQ 小程序，发现目录结构大体一致，只是文件名的后缀有所变化。部分微信独占的 API 没有（例如 <code>onShareTimeline</code> 分享到朋友圈），以及默认的 CSS 样式有一定区别。</p><ul><li>WXML -&gt; QML</li><li>WXSS -&gt; QSS</li><li>WXS -&gt; QS</li></ul><p>而接口也从 <code>wx</code> 变成 <code>qq</code>，例如 <code>wx.request</code> 变成了 <code>qq.request</code>。</p><p>移植之后我发现最大的问题是，里面的图片都没有正常显示出来，而是被替换成了 Referer 错误的替代图片，也就是说小程序的访问带上了自己的 Referer</p><blockquote><p>这个效果是我之前设置 Nginx 的时候加上的，具体代码可以参考本文的最后章节</p></blockquote><p>我看了下此前配置的 Nginx 配置文件，发现微信也有这个问题，但我已经解决掉了。只需要将域名 <code>servicewechat.com</code> 添加到排除列表即可。</p><h1>获得 Referer 地址</h1><p>那么 QQ 小程序的 Referer 带上的是哪个地址呢？通过小程序开发工具本身并不能捕获图片的相关请求，我想到利用 PHP 程序获取的一种方式，将获取到的 Referer 写入到某个文件，我就能看到它的真实面目了。</p><pre><code class="lang-php">&lt;?php
+
+file_put_contents(&quot;referer.txt&quot;, $_SERVER[&quot;HTTP_REFERER&quot;]);</code></pre><p>于是我得到了地址 <code>appservice.qq.com</code>，这就是 QQ 小程序请求 image 带上的 Referer 了，将其加入我的 Nginx 配置里面，问题就解决啦！</p><h1>参考 Nginx 配置</h1><p>以下是我的 Nginx 配置，加上了我前面说的替换图片的神奇操作，你也可以试试看哦！</p><pre><code class="lang-bash">location ~ .*\.(jpg|gif|png)$ {
+  valid_referers none blocked servicewechat.com appservice.qq.com localhost *.paul.ren paul.ren paugram.com *.paugram.com;
+  if ($invalid_referer) {
+    return https://dreamer-paul.gitee.io/static_hosting/404.jpg;
+  }
+}</code></pre><p>如有疑问，欢迎留言评论交流～</p>
+]]></content:encoded>
+<slash:comments>1</slash:comments>
+<comments>https://paugram.com/coding/qq-micro-app-image-has-been-blocked.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/coding/qq-micro-app-image-has-been-blocked.html</wfw:commentRss>
+</item>
+<item>
+<title>与 Innei 的一次技术沙龙，他想放弃做开发了？</title>
+<link>https://paugram.com/essay/talking-about-web-with-innei.html</link>
+<guid>https://paugram.com/essay/talking-about-web-with-innei.html</guid>
+<pubDate>Thu, 10 Sep 2020 17:01:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[日常和 @Innei 聊天，本次的话题主要围绕在 Web 技术方面。他今天遇到了一个超出自己能力的难题，直接找我开唠了！框架之争Innei：搞了半天 GraphQL，最后好不容易跑起来了，发现 ...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>日常和 @Innei 聊天，本次的话题主要围绕在 Web 技术方面。他今天遇到了一个超出自己能力的难题，直接找我开唠了！</p><h1>框架之争</h1><blockquote><p><strong>Innei</strong>：搞了半天 GraphQL，最后好不容易跑起来了，发现 Nest 有 Bug 直接崩掉了，可能是 Fastify 适配的问题，气死了！为了一点点 B 性能从 Express 重构到了 Fastify，现在发现 Fastify B 事一堆，我又要从 Fastify 重构到 Express 😡</p></blockquote><p>他现在非常后悔当初改成了 Fastify。在他纠结这两框架的时候，我突然插入了一个 Koa，因为我想起之前貌似有人说 Koa 要取缔 Express。可事实上 Koa 的下载数量基本在谷底，而且连路由这样的基本功能都没有内置，生态和 Express 比也是毫无优势。</p><blockquote><p><strong>Innei</strong>：Koa 就是垃圾啊 要性能没性能 要生态没生态。追求性能就选 Fastify，要生态就 Express</p></blockquote><p>论并发数量上，Fastify 确实是最好的。因为它有 Json Schema，所以比原生快。别的我不说，就我现在还在用的 php 语言上，我曾尝试过 Laravel，就写一个简单的路由，TTFB 就比我手撸的“数组拆分式”路由要高了不少。他说 php 的并发就是最底端的，前面基本上都是被 GoLang 所占领。</p><h1>技术，为服务而生</h1><p>随后他提出了一个名为“微服务”的概念，又是一个我不了解的东西，太菜了。他说就是把一个整体的服务拆分成几个小的服务，小服务之间再去通信。他前面还提到旧代码容易崩的问题，我真就没看到我的站崩过。他还问我怎么能确定没有崩？没有 E2E，单元测试，就不能直接说没有崩。</p><blockquote><p><strong>Innei</strong>：分布式啥的你总要知道点。微服务，小公司其实没啥用，用户也不多</p><p><strong>Innei</strong>：其实我就是练技术的，要不然我直接用第一版 Express 就够了</p></blockquote><p>这些术语我都无所认知。我感觉个人网站最多加个缓存就足够了，因为根本就不会有这么多人访问。那些技术的最佳实践，还是得去个大公司实践过才知道。我认为技术的最终目的只是为了服务，没有在大的平台里面，是真的能难用上。而且技术只会越来越多，按需学习使用就足够了，真的没有必要过于纠结使用什么技术。</p><h1>不想做开发了？</h1><p>他还在为了重构这件事情发愁，都开始怀疑自己是不是不适合做开发了 😂 他说他的代码已经重构了两次，这次要是重构就 3 次了，而且他每次写完都感觉写的很烂，还提出让我做自媒体，我当老板他当员工的“想法”。</p><p>可现实是我做视频从来就没有获得过多大的成绩，想起我另外一位好友 <em>@千里马</em> 也做了很多视频，但是观看量一直不过百。他每次录视频的时候还很紧张，录音也反复了几次才最终做出一个成品。</p><p>我问他你难道就没有感受到 B 站的打击吗，他却乐观的说：</p><blockquote><p>我是学佛的，其实我感觉我没有多么注重有多少人看，更多的是把这个坚持下去吧。感觉我内心并不注重观看量，多少人看都无所谓的，自己玩的开心就好，就是内心不执着于这个播放量，执着的话上一个播放量提高了开心了，下一个视频播放量降低了为此而苦恼，各种因此引发的动态，这样上上下下，心也跟着上上下下折磨自己反而挺难受的。</p></blockquote><p>这样的心态确实很好，非常难得。他甚至还想看看有没有可能出现 1 观看量的情况，可现实是粉丝观看都不止这个量了吧。我感觉他还是太年轻了，没走出社会自己工作，真的不能体会到那种感觉。</p><p>现实往往付出与回报不成正比，被毒打过就知道了。昨天的一篇文章《外卖骑手，困在系统里》就详细的分析了外卖骑手们的实际工作情况，他们为了一个数据，连自己的命都不要。而且他们还是弱者，忍受着这么大的工作压力却没有人能为他们发声。科技并不会让更多人放下工作，只会更多的提升产能。我现在都庆幸自己没有去跑外卖，很难想象这样的生活他们能坚持下来。</p><p>最后，我认为抱怨还是少点吧，看清现实，看清自己就已足矣。真的没有必要过于纠结太多东西，既为难自己，也耗费精力。我们真的已经比其他人要好很多了。</p>
+]]></content:encoded>
+<slash:comments>10</slash:comments>
+<comments>https://paugram.com/essay/talking-about-web-with-innei.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/essay/talking-about-web-with-innei.html</wfw:commentRss>
+</item>
+<item>
+<title>谈谈现实，记一次聊天</title>
+<link>https://paugram.com/essay/talking-about-reality-with-recopec.html</link>
+<guid>https://paugram.com/essay/talking-about-reality-with-recopec.html</guid>
+<pubDate>Tue, 08 Sep 2020 01:03:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[9 月 5 日晚上和 @Recopec 大佬聊天，主要谈到了三个现实问题，读书、生活、爱好。读书，真的可以改变未来他打算考本乃至考研，Rec 现在很后悔自己当初没参加高考。“我现在这个专科实在是...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>9 月 5 日晚上和 @Recopec 大佬聊天，主要谈到了三个现实问题，读书、生活、爱好。</p><blockquote><p>读书，真的可以改变未来</p></blockquote><p>他打算考本乃至考研，Rec 现在很后悔自己当初没参加高考。“我现在这个专科实在是太菜了，他们就跟井底之蛙一样”读书确实能让自己获得更高层次的教育，至少目前国内现状就是这样的。而他现在的学校，就没有那种学习氛围。“上个大专，还在这么努力，早不去干嘛了”。可实际上呢，本科院校也有这样的人。我觉得真要努力，其实在哪都没有关系。</p><p>他想起了他的一位好友，初中在不太好的环境下成长，给带坏了。他家里人挺在意他的，可他却并不领情，反口一句“该干嘛干嘛去”。Rec：“一个层次真的能区别一堆人，素质程度就能看出来”可见一个人的成长，与其环境很有联系。</p><p>我在初中的时候学习就不是很好，在学校没有那种“认同感”。反倒是当时的网络世界更加吸引我，因为我做的“内容”有人认可，于是便越学越渣。Rec：“卖弱就好了”。可真弱的时候还需要卖？那时候唯一对物理更感兴趣，可是分数也没见的多高，数学老师对我则是完全“放弃”状态。唯独被认同的时候，就是我已经毕业的技校了。</p><blockquote><p>以前还喜欢攀比炫耀，现在没感觉</p></blockquote><p>当时初中班里还有很多人喜欢“炫富”。可能我的成绩不太好，他们就更喜欢来“挖苦”我。他们在用 iPhone、iPad，我却只能用很便宜的入门安卓机，从来没想过自己以后有没有机会用。现在自己能买到这些“贵东西”了，但却变得索然无味了许多。Rec：“我觉得自己的知识储备，得大于物质条件”确实如此，可能正是这个原因，我在技校的时候用 iPhone 的也没有嘲讽用安卓的，学得好学得渣都是一样玩，没有什么特别的攀比关系。</p><blockquote><p>以后想过低质量的生活还是高质量的</p></blockquote><p>我认为低质量的生活，是没有温暖，关怀，缺少家庭氛围，孤独的感觉。而高质量的生活，不一定得有钱，至少要过的自在。农民，环卫工也有满怀笑容的，他们抱怨过自己的工作么？有钱没钱不也照样结婚过日子？</p><p>虽然有些人享受着一个人孤独的感觉，但我自己还是更喜欢“在合适的时机有着合适的氛围”，就像此时此刻的这篇日记，是在凌晨 1 点编写的，这也确实能让我更加沉浸于创作。</p><blockquote><p>我现在就想把想学的都学会，这就是我想要的了</p></blockquote><p>Rec 表示他想学画画，学钢琴，学英语，学日语，而他以前只想玩游戏。发展兴趣爱好是挺好的，但是我总认为再怎么学，都不可能学精。Rec 前段时间看完《刻意练习》，书上也说了，<strong>一个人不可能每个地方都很突出，只要一个方面达到行业顶尖</strong>。</p><p>目前我也就前端搞的略微有成，要知道 @Innei 现在苦研前端，总感觉他除了前端就别无爱好了似的，无时无刻都在搞前端，比我执着多了！就我目前的能力范围以内，我觉得能自己写一个 Vue/React 才能算是顶尖，毕竟这样的框架现在的运用非常广泛了。</p><p>而我的“副业”做视频，虽然经常会萌生出新的点子，可是却没动力继续干，认为做了没人看，没必要在自己已经很熟悉的东西上再费心思。甚至看到那些新人做的很水的视频都能比我火，就感觉搞的自己更不自在了。如果想继续做下去，真的需要威逼自己一把。而这里每天的日记呢，是为我自己编写的。我希望未来能够看到自己当初的进步，所以有没有人看也显得不是很重要了。</p>
+]]></content:encoded>
+<slash:comments>8</slash:comments>
+<comments>https://paugram.com/essay/talking-about-reality-with-recopec.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/essay/talking-about-reality-with-recopec.html</wfw:commentRss>
+</item>
+<item>
+<title>Element Upload 组件上传多文件的坑</title>
+<link>https://paugram.com/coding/element-upload-component-multiple-files-bug.html</link>
+<guid>https://paugram.com/coding/element-upload-component-multiple-files-bug.html</guid>
+<pubDate>Thu, 23 Jul 2020 15:25:00 +0800</pubDate>
+<dc:creator>Paul</dc:creator>
+<description><![CDATA[可以看到，上传完成的瞬间，原本有两个文件，最后就只剩下一个了！这是我的代码：&lt;template&gt;  &lt;main&gt;    &lt;el-upload      class=...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<video src="https://paugram.com/usr/uploads/Element-Upload-Bug.mp4" controls></video><p>可以看到，上传完成的瞬间，原本有两个文件，最后就只剩下一个了！</p><p>这是我的代码：</p><pre><code class="lang-html">&lt;template&gt;
+  &lt;main&gt;
+    &lt;el-upload
+      class=&quot;upload-demo&quot;
+      action=&quot;imgupload.php&quot;
+      :on-remove=&quot;handleRemove&quot;
+      :before-remove=&quot;beforeRemove&quot;
+      multiple
+      :limit=&quot;3&quot;
+      :on-success=&quot;handleSuccess&quot;
+      :on-exceed=&quot;handleExceed&quot;
+      :file-list=&quot;fileList&quot;
+      list-type=&quot;picture-card&quot;
+    &gt;
+      &lt;el-button size=&quot;small&quot; type=&quot;primary&quot;&gt;点击上传&lt;/el-button&gt;
+      &lt;div slot=&quot;tip&quot; class=&quot;el-upload__tip&quot;&gt;只能上传jpg/png文件，且不超过500kb&lt;/div&gt;
+    &lt;/el-upload&gt;
+  &lt;/main&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data() {
+    return {
+      fileList: [],
+    };
+  },
+  methods: {
+    handleSuccess(type, res, file) {
+      this.fileList.push({
+        name: file.name,
+        url: file.response
+      });
+    },
+    handleExceed(files, fileList) {
+      this.$message.warning(
+        `当前限制选择 3 个文件，本次选择了 ${files.length} 个文件，共选择了 ${
+          files.length + fileList.length
+        } 个文件`
+      );
+    },
+    beforeRemove(file) {
+      return this.$confirm(`确定移除 ${file.name}？`);
+    },
+  }
+};
+&lt;/script&gt;</code></pre><p>注意一下 <code>this.fileList.push</code> 这个操作，意思就是将我们成功上传的图片放置在 Vue 的 <code>data.fileList</code> 里面。正常逻辑嘛，前面的 <code>:file-list</code> 参数也绑定了它，我们自然普遍认为上传成功之后，预览的内容会根据它进行变化。</p><blockquote><p>可惜 Element 本身是没有对其进行绑定的。</p></blockquote><p>一旦连续 <code>push</code> 了两次，最终 DOM 上就只会渲染最后上传成功的那张图片出来，真是实属坑爹！</p><p>而我的解决方式是，使用另外一个名为 <code>uploadedFile</code> 的数组来存放原有的 <code>fileList</code> 该有的信息，上传成功的时候将数据写入这个数组，比较奇怪的是即便你不 <code>push</code> 给 <code>fileList</code> 对象，DOM 上也会自然的增加一个图片出来！</p><video src="https://paugram.com/usr/uploads/Element-Upload-Bug-Fixed.mp4" controls></video><pre><code class="lang-html">&lt;script&gt;
+export default {
+  data() {
+    return {
+      fileList: [],
+      // 增加数组
+      uploadedFiles: []
+    };
+  },
+  methods: {
+    handleSuccess(type, res, file) {
+      // 替换成 uploadedFiles
+      this.uploadedFiles.push({
+        name: file.name,
+        url: file.response
+      });
+    }
+  }
+};
+&lt;/script&gt;</code></pre><p>如果不这样做呢？直接不对任何数组 <code>push</code> 呢？</p><pre><code class="lang-javascript">handleSuccess(type, res, file) {
+  // 两个数组都是空的
+  console.log(this.fileList, this.uploadedFiles);
+  // [], []
+}</code></pre><p>你会发现 DOM 是更新了，但是你却无法拿到已上传文件的信息了！惊不惊喜，意不意外？</p><p>我还试过不编写 <code>handleSuccess</code> 钩子，但是依旧不见效，<code>:file-list</code> 指向的数组依旧是没有任何变化的。</p><p>不知道这个情况算不算 Bug，还是 Element 本身的 Feature。我的这个方法也只是比较 Hack 的方式暂时解决了需求，感觉并不是最佳方案。如果有遇到同样问题的同学们，希望能分享一下你的解决思路，万分感激！</p>
+]]></content:encoded>
+<slash:comments>3</slash:comments>
+<comments>https://paugram.com/coding/element-upload-component-multiple-files-bug.html#comments</comments>
+<wfw:commentRss>https://paugram.com/feed/coding/element-upload-component-multiple-files-bug.html</wfw:commentRss>
+</item>
+</channel>
+</rss>

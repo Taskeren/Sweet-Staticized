@@ -8,8 +8,12 @@
     <link href="static/paul.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Taskeren Modification Start -->
+    <script src="static/jquery-3.6.0.min.js"></script>
+    <script src="static/SimpleDateFormat.js"></script>
+    <!-- Taskeren Modification End -->
 </head>
-<body style="background-image: url('static/background-<?php echo rand(1, 6);?>.jpg');">
+<body>
 <div id="loader">
     <figure>
         <img src="./static/avatar.jpg"/>
@@ -30,33 +34,7 @@
             <a href="https://space.bilibili.com/124512959/" target="_blank"><i class="fa fa-flag"></i><span class="title">哔哩哔哩</span></a>
         </section>
         <section id="articles">
-<?php
-error_reporting(0);
-
-// 设置你的博客 RSS 地址（WordPress、Typecho 均可）
-define("BLOG_URL", "https://paugram.com/feed");
-
-$file = simplexml_load_file(BLOG_URL) -> channel -> item;
-
-if(isset($file)){
-    for($i = 0; $i < 6; $i++){
-        $timestamp = strtotime($file[$i] -> pubDate);
-        $timestamp = date("y-m-d", $timestamp);
-
-        if($file[$i]){
-            echo '<a href="' . $file[$i] -> link . '" target="_blank">' .$file[$i] -> title . '<span class="meta">' . $timestamp . "</span></a>";
-            echo "\n";
-        }
-        else{
-            break;
-        }
-    }
-}
-else{
-    echo "<a>博客连接失败<span class='meta'>请检查</span></a>";
-}
-
-?>
+            <!-- Taskeren Modification -->
         </section>
         <section id="products">
             <a class="item" href="https://kico.binkic.com/style" target="_blank">Kico Style<span class="meta">极简前端框架</span></a>
@@ -90,10 +68,62 @@ else{
     </div>
 </main>
 <footer>
-    <p>© <?php echo date(Y)?> By <a href="https://paugram.com">Dreamer-Paul</a>.</p>
+    <p>© <span id="copyright"><!-- Taskeren Modification --></span> By <a href="https://paugram.com">Dreamer-Paul</a>.</p>
 </footer>
 
 <script src="static/paul.js"></script>
+
+<!-- Taskeren Modification Start -->
+<script>
+    // 你的 RSS 地址
+    /* 
+     * 注意：因为 JavaScript 不能跨域，所以你需要在你的博客站中将 'Access-Control-Allow-Origin: [这个站点的URL]' 添加到 Header 中。
+     *      或者将这个站点与博客站放在同一个域名下（不同的二级域名也不行）。
+     */
+    const rssFeed = "feed.txt"
+
+    // 代替了原来的 PHP 随机背景图
+    $("body").css("background-image", `url(static/background-${Math.floor(Math.random()*6+1)}.jpg)`)
+
+    // 自动更新 Copyright 年份
+    $("#copyright").text(new Date().getFullYear())
+
+    function updateRSS() {
+        $.ajax({
+            'url': rssFeed,
+            success(data, status) {
+                // 获取RSS内容并解析
+                let dom = new DOMParser().parseFromString(data, "application/xml")
+                let items = dom.getElementsByTagName("channel")[0].getElementsByTagName("item")
+                // 将内容填充到页面
+                for(let i=0; i < 6; i++) {
+                    let item = items[i]
+                    // 准备信息内容
+                    let title = item.getElementsByTagName("title")[0].innerHTML
+                    let redirect = item.getElementsByTagName("link")[0].innerHTML
+                    let timestamp = new Date(item.getElementsByTagName("pubDate")[0].innerHTML)
+                    let timeStr = new SimpleDateFormat("yy-mm-dd").format(timestamp)
+                    // 建立元素
+                    let elA = document.createElement("a")
+                    elA.href = redirect
+                    elA.target = "_blank"
+                    elA.innerText = title
+                    let elSpan = document.createElement("span")
+                    elSpan.innerText = timeStr
+                    elSpan.classList += "meta"
+                    elA.appendChild(elSpan)
+                    // 加入到页面
+                    document.getElementById("articles").appendChild(elA)
+                }
+            },
+            error(err, status) {
+                console.error(err)
+            }
+        })
+    }
+    updateRSS()
+</script>
+<!-- Taskeren Modification End -->
 
 </body>
 </html>
