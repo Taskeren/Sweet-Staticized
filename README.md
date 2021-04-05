@@ -1,5 +1,7 @@
-# Sweet
-一个简洁的个人首页，可以调用博客最新文章。
+# Sweet-Staticized
+一个简洁的静态个人首页，可以调用博客最新文章。
+
+原项目为保罗的 [Sweet](https://github.com/Dreamer-Paul/Sweet)，我将其中的 PHP 内容全部使用 JavaScript 实现。
 
 ## 使用方法
 1. Star 本项目
@@ -13,9 +15,12 @@
 ## 开源协议
 本项目采用 MIT 开源协议进行授权，并在其基础上须保留原作者的版权注释（除 HTML），当然能在页尾写上项目原地址就是最好的啦~
 
-原创不易！如果喜欢本项目，请 Star 它以示对我的支持~
+~~原创不易！如果喜欢本项目，请 Star 它以示对我的支持~~~
 
-同时欢迎前往 [我的博客](https://paugram.com/about.html#donate) 为我提供赞助，谢谢您！
+改造不易！如果喜欢本项目，请 Star 它以表对保罗的支持~
+
+同时欢迎前往 [保罗的博客](https://paugram.com/about.html#donate) 为我提供赞助，谢谢您！
 
 ## 使用的开源项目
  - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+ - [SimpleDateFormatJS](https://github.com/noahcooper/SimpleDateFormatJS)
